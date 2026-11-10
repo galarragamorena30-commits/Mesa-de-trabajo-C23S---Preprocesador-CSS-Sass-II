@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8b8b8b;
+  background-color: #ffffff;
+  padding: 20px 50px;
+}
+
+.resaltado {
+  background-color: #03faee;
+  padding: 0 4px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+header .menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+header .menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+header .menu a:hover {
+  color: #03faee;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  gap: 30px;
+}
+.hero .hero-texto {
+  width: 50%;
+}
+.hero .hero-texto h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.hero .hero-texto p {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.hero .hero-texto .botones {
+  display: flex;
+  gap: 15px;
+}
+.hero .hero-texto .botones .btn {
+  background-color: #03faee;
+  color: #000000;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 4px 4px 0px #92f7f2;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.hero .hero-texto .botones .btn:hover {
+  transform: translate(-2px, -2px);
+}
+.hero .hero-texto .botones .btn:active {
+  transform: translate(0, 0);
+}
+.hero .ilustracion {
+  width: 48%;
+}
+.hero .ilustracion img {
+  width: 100%;
+  height: auto;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 25px;
+  margin: 50px 0;
+}
+.tarjetas .card {
+  background-color: #f8f8f8;
+  padding: 30px 20px;
+  border-radius: 12px;
+  flex: 1;
+}
+.tarjetas .card .numero {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+.tarjetas .card h3 {
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.tarjetas .card p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+footer p {
+  font-size: 14px;
+}
+footer .redes {
+  display: flex;
+  gap: 15px;
+}
+footer .redes a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #03faee;
+  transition: transform 0.2s ease;
+}
+footer .redes a:hover {
+  transform: scale(1.1);
+}
+footer .redes a img {
+  width: 18px;
+  height: 18px;
+}/*# sourceMappingURL=style.css.map */
